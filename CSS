@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  margin: 10px 150px;
+}
+
+.header{
+  background-color: #0E1060;
+}
+
+.header-line{
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+
+  margin-right: 52px;
+  margin-left: 52px;
+
+  transition: color 0.2s linear;
+}
+
+.nav-item:hover {
+  color: #2CA1FF;
+}
+
+.header-down {
+  position: relative;
+}
+
+.header-title {
+  color: #222222;
+  font-family: 'Lato Black', sans-serif;
+  font-size: 56px;
+  font-weight:bold;
+  margin-left: 120px;
+  margin-top: -300px;
+}
+
+.header-button {
+  background-color: #2CA1FF;
+  padding: 14px 22px;
+  color: #F6F7F9;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 180px;
+  margin-top: 400px;
+
+  transition: background-color 0.2s linear;
+}
+
+.header-button: hover{
+  background-color: #0E1060 ;
+}
+
+.img1 {
+  margin-top: 50px;
+  margin-left: 700px;
+}
+
+.sides-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 48px;
+  margin-top: 100px;
+  margin-left: -20px;
+}
+
+.sides-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.sides-title1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: -180px;
+  margin-left: 700px;
+}
+
+.sides-description1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-left: 700px;
+}
+
+.sides-title2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: -158px;
+  margin-left: 1000px;
+}
+
+.sides-description2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-left: 1000px;
+}
+
+.sides-title3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 70px;
+  margin-left: 700px;
+}
+
+.sides-description3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-left: 700px;
+    margin-bottom: 100px;
+}
+
+.sides-title4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: -220px;
+  margin-left: 1000px;
+}
+
+.sides-description4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-left: 1000px;
+    margin-bottom: 50px;
+}
+
+.courses-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 48px;
+  margin-top: 30px;
+  margin-left: -20px;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+.courses-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 125px;
+}
+
+.courses-description1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 880px;
+}
+
+.courses-img1 {
+  margin-top: -355px;
+  margin-left: 700px;
+}
+
+.teachers-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 48px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.teachers-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.teachers-img {
+  margin-top: 60px;
+  margin-left: 0;px;
+}
+
+.hr-dashed {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px dashed #ddd;
+}
+
+.teachers-title1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  margin-top: -370px;
+  margin-left: 350px;
+  margin-bottom: 10px;
+}
+
+.teachers-description1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 350px;
+    color: #9BA5B6;
+}
+
+.mail {
+   margin-left: 350px;
+   margin-top: 20px;
+}
+
+.mail1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  margin-left: 420px;
+  margin-top: -32px;
+}
+
+.nav-item1 {
+  color: #2CA1FF;
+  text-decoration: none;
+  font-size: 24px;
+
+  margin-left: 350px;
+
+  transition: color 0.2s linear;
+}
+
+.nav-item1:hover {
+  color: #0E1060;
+}
+
+.teachers-img2 {
+    margin-left: 350px;
+}
+
+.teachers-img3 {
+    margin-left: 570px;
+    margin-top: -159px;
+}
