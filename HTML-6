@@ -1,0 +1,47 @@
+<html lang = "en">
+  <head>
+    <title>Школа "РИНХ" для подготовки к ЕГЭ</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="C:\Users\Admin\OneDrive\Рабочий стол\Новая папка\style\style5.css">
+    <link rel="shortcut icon" href="https://storage.myseldon.com/yugo/8B9007E9BD2E20A2B1CD0E6AA5777B03.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;900&display=swap" rel="stylesheet">
+    <title>Сайт РИНХА</title>
+  </head>
+  <body>
+    <div class='header'>
+      <div class='container'>
+       <div class='header-line'>
+          <div class ='header-logo'>
+            <img src="C:\Users\Admin\OneDrive\Рабочий стол\Новая папка\source\logo.png" width="150" height="120">
+          </div>
+          <div class = 'nav'>
+            <a class ='nav-item' href = "C:\Users\Admin\OneDrive\Рабочий стол\Новая папка\html\index.html">Главная</a>
+            <a class ='nav-item' href = "C:\Users\Admin\OneDrive\Рабочий стол\Новая папка\html\index2.html">Курсы</a>
+            <a class ='nav-item' href = "C:\Users\Admin\OneDrive\Рабочий стол\Новая папка\html\index3.html">Преподаватели</a>
+            <a class ='nav-item' href = "C:\Users\Admin\OneDrive\Рабочий стол\Новая папка\html\index4.html">О нас</a>
+            <a class ='nav-item' href = "C:\Users\Admin\OneDrive\Рабочий стол\Новая папка\html\index5.html">Войти</a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <form action="action_page.php" style="border:1px solid #ccc">
+     <div class="container">
+    <h1>Войдите или зарегистрируйтесь</h1>
+    <hr>
+    <label for="email"><b>Email или номер телефона</b></label>
+    <input type="text" placeholder="Введите вашу почту или номер телефона" name="email" required>
+    <label for="psw"><b>Пароль</b></label>
+    <input type="password" placeholder="Введите пароль" name="psw" required>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Запомнить меня
+    </label>
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Войти</button>
+      <button type="submit" class="signupbtn">Регистрация</button>
+    </div>
+  </div>
+</form>
+    </body>
+  </html>
