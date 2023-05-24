@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  margin: 10px 150px;
+}
+
+.header{
+  background-color: #0E1060;
+}
+
+.header-line{
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+
+  margin-right: 52px;
+  margin-left: 52px;
+
+  transition: color 0.2s linear;
+}
+
+.nav-item:hover {
+  color: #2CA1FF;
+}
+
+.teachers-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.teachers-img {
+  margin-top: 60px;
+  margin-left: 0;px;
+}
+
+.teachers-title1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  margin-top: -280px;
+  margin-left: 350px;
+  margin-bottom: 20px;
+}
+
+.teachers-description1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+.mail {
+   margin-left: 350px;
+   margin-top: 20px;
+}
+
+.mail1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  margin-left: 420px;
+  margin-top: -32px;
+}
+
+.hr-dashed {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px dashed #ddd;
+}
+
+.teachers-title2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  margin-top: 160px;
+  margin-left: 350px;
+  margin-bottom: 20px;
+}
+
+.teachers-description2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+.teachers-title3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  margin-top: 0px;
+  margin-left: 350px;
+  margin-bottom: 20px;
+}
+
+.teachers-description3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+.teachers-title4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  margin-top: 0px;
+  margin-left: 350px;
+  margin-bottom: 20px;
+}
+
+.teachers-description4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 350px;
+}
